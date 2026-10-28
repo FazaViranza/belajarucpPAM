@@ -1,7 +1,16 @@
 <resources>
-    <string name="app_name">belajar</string>
-    <string name="judul">judul</string>
-    <string name="deskripsi">deskripsi</string>
-    <string name="nama">nama</string>
-    <string name="email">email</string>
+    <string name="app_name">Belajar</string>
+    <string name="judul_pendaftaran">Pendaftaran Workshop</string>
+    <string name="deskripsi_pendaftaran">Silakan isi formulir di bawah ini</string>
+    <string name="label_nama">Nama mahasiswa</string>
+    <string name="label_email">Email mahasiswa</string>
+    <string name="tombol_konfirmasi">Konfirmasi</string>
+    <string name="kategori_workshop">Kategori workshop</string>
+    <string name="android">Android</string>
+    <string name="web">Web</string>
+    <string name="uiux">UI/UX</string>
+    <string name="se7">Setuju?</string>
+    <string name="daftar">Daftar</string>
+    <string name="konfirmasi">Pendaftaran Berhasil</string>
+    <string name="kembali">Kembali</string>
 </resources>
