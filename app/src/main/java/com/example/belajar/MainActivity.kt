@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import com.example.belajar.ui.theme.BelajarTheme
-import com.example.belajar.view.InnputData
+import com.example.belajar.DataApp
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,7 +13,7 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             BelajarTheme {
-                InnputData()
+                DataApp()
             }
         }
     }

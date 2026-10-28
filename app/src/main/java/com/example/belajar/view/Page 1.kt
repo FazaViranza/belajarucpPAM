@@ -26,7 +26,9 @@ import androidx.compose.ui.Alignment
 
 
 @Composable
-fun InnputData() {
+fun InnputData(
+    onSubmit: (String, String, String) -> Unit
+) {
     var nama by remember { mutableStateOf("") }
     var email by remember { mutableStateOf("") }
     var kategori by remember { mutableStateOf("") }
@@ -115,7 +117,7 @@ fun InnputData() {
             }
             Spacer(modifier = Modifier.height(8.dp))
             Button(
-                onClick = { /* aksi nanti */ },
+                onClick = {nama, email, kategori},
                 enabled = formValid
             ) {
                 Text(text = stringResource(R.string.daftar))
